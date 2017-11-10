@@ -9,8 +9,8 @@ def key_for_min_value(name_hash)
 
   name_a.each do |i|
     if i[1] < d_value
-    d_value = i[1]
-    d_key = i[0]
+    default_value = i[1]
+    default_key = i[0]
   end
   return default_key
 end
