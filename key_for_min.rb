@@ -12,4 +12,5 @@ def key_for_min_value(name_hash)
     d_value = i[1]
     d_key = i[0]
   end
+  return default_key
 end
