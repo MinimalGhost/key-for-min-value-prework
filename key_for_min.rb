@@ -7,7 +7,9 @@ def key_for_min_value(name_hash)
   default_value = 1000
   default_key = 0
 
-  name_hash.each do |name, value|
-
+  name_a.each do |i|
+    if i[1] < d_value
+    d_value = i[1]
+    d_key = i[0]
   end
 end
