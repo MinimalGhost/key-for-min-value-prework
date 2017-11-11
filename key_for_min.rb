@@ -4,4 +4,8 @@
 def key_for_min_value(name_hash)
   key_for_min_value
   min_value = 1000
+
+  name_hash.each do |key, value|
+
+  end
 end
